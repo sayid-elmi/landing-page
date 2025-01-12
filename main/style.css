@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.header {
+    background-color: teal;
+    color: white;
+    padding: 1rem 10%;
+    height: 500px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.hero-image {
+    flex: 1;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    color: white;
+}
+.hero{
+    flex: 1;
+    font-size: 2rem;
+
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
