@@ -44,3 +44,49 @@
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+
+.container{
+    width: 150px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 5px yellow;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+
+.box{
+    border: 5px solid salmon ;
+    padding: 10px;
+    width: 500px;
+    height: 240px;
+ 
+    
+
+   
+}
+.box img, p{
+    align-items: center;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box img{
+    width: 400px;
+    height: 215px;
+}
+h2{
+    text-align: center;
+}
+
+.container2{
+    height: 100vh;
+}
+p{
+    margin: auto;
+}
